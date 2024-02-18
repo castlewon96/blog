@@ -1,7 +1,13 @@
 .App {
   text-align: center;
 }
-
+.black-nav {
+  display: flex;
+  width: 100%;
+  color: #fff;
+  background: #000;
+  padding: 10px 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
