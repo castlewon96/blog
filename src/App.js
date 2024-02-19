@@ -1,3 +1,4 @@
+import './reset.css';
 import './App.css';
 
 function App() {
@@ -7,7 +8,7 @@ let post = '김포 맛집';
   return (
     <div className="App">
       <div className="black-nav">
-        <h3 style={{fontSize : '16px'}}>Blog</h3>
+        <h1><a href='javscript:;' style={{fontSize : '16px', fontWeight : 'bold' , color : '#fff'}}>Blog</a></h1>
       </div>
       <h4>{ post }</h4>
     </div>
